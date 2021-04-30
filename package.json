@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-mongo-projection",
+  "version": "0.0.0",
+  "description": "eslint rule to catch deprecated use of mongo projections",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Conor Sheehan <conor.sheehan.dev@gmail.com>",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "eslint": "eslint .",
+    "eslint:fix": "eslint --fix ."
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "mocha": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}

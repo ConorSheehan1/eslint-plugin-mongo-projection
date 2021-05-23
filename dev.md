@@ -1,4 +1,4 @@
-# releases
+# Releases
 To publish to npm cerate a new release on github.
 See .github/workflows.release.yml for details.
 

@@ -9,7 +9,8 @@ on:
     tags-ignore:
       - '*.*' # don't run ci on tags, should already have run on commit tag points to.
     paths-ignore:
-      - README.md # don't run for readme changes.
+      - README.md
+      - dev.md
 
 jobs:
   build:

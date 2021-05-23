@@ -1,3 +1,11 @@
+# releases
+To publish to npm cerate a new release on github.
+See .github/workflows.release.yml for details.
+
+## Versions
+Use `npm version $new_version` to update package.json and package-lock.json.
+You shouldn't need to tag locally, creating the github release will create a matching tag.
+
 # Debugging
 Debugging eslint rules can be tricky because of circular references.
 To get around this issue, use the util module (in the standard lib for node, but still require import)

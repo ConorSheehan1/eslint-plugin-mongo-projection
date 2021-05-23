@@ -7,7 +7,11 @@
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "Conor Sheehan <conor.sheehan.dev@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaizendorks/eslint-plugin-mongo-projection.git"
+  },
+  "author": "Kaizen Dorks <kaizendorks@gmail.com>",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests --recursive",

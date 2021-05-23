@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/ConorSheehan1/eslint-plugin-mongo-projection/workflows/ci/badge.svg)](https://github.com/ConorSheehan1/eslint-plugin-mongo-projection/actions/)
+[![Build Status](https://github.com/kaizendorks/eslint-plugin-mongo-projection/workflows/ci/badge.svg)](https://github.com/kaizendorks/eslint-plugin-mongo-projection/actions/)
 # eslint-plugin-mongo-projection
 
 eslint rule to catch incorrect use of mongo projections
